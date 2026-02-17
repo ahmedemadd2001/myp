@@ -37,4 +37,11 @@ body {
     background-position: 0px 50%;
     /* background-size: cover; */
     background-size: contain;
+    padding: 10px;
+
+}
+
+.firstp .h1,
+.h2 {
+    padding: 20px;
 }
