@@ -33,4 +33,6 @@ body {
     /* Red, Green, Blue, Alpha Channel */
     background-image: url(kyle-johnson-TEZZzuQTt8g11-unsplash.jpg);
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center center;
 }
