@@ -71,3 +71,12 @@ body {
     background-color: red;
     visibility: none;
 }
+
+.square {
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 8px solid blueviolet;
+}
