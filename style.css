@@ -48,3 +48,26 @@ body {
 .h2 {
     padding: 20px;
 }
+
+.block {
+    /* background-color: #eee; */
+    /* display: block; */
+    padding: 20px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+.bb {
+    margin: 20px;
+    background-color: #ccc;
+    padding: 20px;
+
+}
+
+.bv {
+    margin: 20px;
+    padding: 20px;
+
+    background-color: red;
+    visibility: none;
+}
