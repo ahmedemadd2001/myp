@@ -79,4 +79,22 @@ body {
     padding: 20px;
     margin: 20px auto;
     border: 8px solid blueviolet;
+    overflow-x: hidden;
+}
+
+.shadow {
+    text-shadow: 1px 1px 1px red;
+}
+
+.text {
+    padding: 10px;
+    background-color: #ccc;
+    text-align: center;
+    /* vertical-align: middle; */
+}
+
+.text img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
 }
