@@ -2,6 +2,7 @@ body {
     /* background-color: brown; */
     /* background-image: url(kyle-johnson-TEZZzuQTt8g-unsplash.jpg); */
     /* background-repeat: no-repeat; */
+    height: 4000px;
 
 }
 
@@ -155,4 +156,78 @@ body {
     background-color: red;
     padding: 30px;
     margin-bottom: 10px;
+}
+
+.elzeroo {
+    width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+hr {
+    margin-top: 115px;
+}
+
+.zero {
+    padding: 30px;
+    margin: 20px auto;
+    background-color: #eee;
+    text-align: center;
+    width: 350px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.zero::first-letter {
+    background-color: red;
+    float: left;
+    position: absolute;
+    padding: 15px;
+    margin-left: -55px;
+    margin-top: -15px;
+    top: 50%;
+    color: white;
+}
+
+/* .data {
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    padding: 20px;
+} */
+.data .txt {
+    background-color: #ccc;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    border-left: #E62E62 5px solid;
+}
+
+.txt::after {
+    content: attr(data-person);
+    background-color: #ccc;
+    position: absolute;
+    padding: 20px;
+    left: -114px;
+    top: 0px;
+    width: 50px;
+    /* border-style: solid; */
+    border-left: 10px solid #E62E62;
+}
+
+.txt::before {
+    content: "";
+    border: solid 10px;
+    border-color: transparent #E62E62 transparent transparent;
+    position: absolute;
+    left: -20px;
+    top: 34%;
+    margin-top: - 10px;
 }
