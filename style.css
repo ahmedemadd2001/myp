@@ -231,3 +231,45 @@ hr {
     top: 34%;
     margin-top: - 10px;
 }
+
+/* .counter {
+    height: 600px;
+    background-color: #E62E62;
+} */
+
+.counter p {
+    background-color: #ccc;
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    counter-increment: mempers-counter;
+    position: relative;
+    text-align: center;
+
+}
+
+.counter p::before {
+    content: counter(mempers-counter);
+    /* width: 10%; */
+    /* height: 58px; */
+    background-color: #E74033;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    color: white;
+    float: right;
+    padding: 20px;
+}
+
+.counter p::after {
+    content: "";
+    position: absolute;
+    background-color: #E62E62;
+    height: 100%;
+    width: 5px;
+    right: 0px;
+    top: 0px;
+
+}
