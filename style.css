@@ -271,5 +271,66 @@ hr {
     width: 5px;
     right: 0px;
     top: 0px;
+}
+
+.boxshadow {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.boxshadow div {
+
+    /* float: left; */
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 50%;
+    /* margin: 20px auto; */
+    padding: 80px;
+    position: relative;
+    left: -30px;
+    top: 25%;
+    margin-left: 80px;
+    counter-increment: number;
+    border: 10px black solid;
+    box-shadow: 0 10px 0 #F10000;
+    box-shadow: 0 4px 0 #0056;
+    box-shadow: 0 0 10px 0 #080, ;
+
+
+}
+
+.boxshadow div::before {
+    content: counter(number);
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    content: counter(number);
+    background-color: black;
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -34px;
+    left: 107px;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: xx-large;
+    box-shadow: 0 0 10px 0 #F10000;
 
 }
